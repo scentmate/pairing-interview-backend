@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Component
 metadata:
   name: "pairing-interview-backend"
   annotations:
     github.com/project-slug: "scentmate/pairing-interview-backend"
 spec:
-  type: interview
-  lifecycle: production
+  type: library
+  lifecycle: experimental
